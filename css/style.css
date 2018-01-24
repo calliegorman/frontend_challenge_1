@@ -143,6 +143,10 @@ span.title {
   padding-right: 2%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .min_bold {
   font-weight: bold;
   font-size: 1.6em;
@@ -180,24 +184,18 @@ span.title {
   width: 414px;
 }
 
-.tabbar_text {
-  width: 33.3%;
-  float: left;
-  text-align: center;
-  color: #FFFFFF;
-  position: relative;
-  top: 3em;
-}
-
 .tabbar_icons {
-  width: 33.3%;
-  float: left;
-  text-align: center;
   color: #FFFFFF;
-  position: relative;
-  top: -.2em;
+  float: left;
+  padding-top: 2.5%;
+  text-align: center;
+  width: 33.3%;
 }
 
-.bold {
-  font-weight: bold;
+.tabbar_text {
+  color: #FFFFFF;
+  float: left;
+  padding-top: 1.5%;
+  text-align: center;
+  width: 33.3%;
 }
