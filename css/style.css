@@ -23,37 +23,27 @@ body {
   background-color: rgba(30, 87, 100, 100);
   display: block;
   height: 25px;
-  position: relative;
   width: 100%;
 }
 
 .navbar {
   background-color: #006075;
   height: 3.5em;
-  text-align: center;
 }
 
 .back_arrow {
-  position: relative;
   float: left;
-  top: 1em;
-  left: .8em;
-  z-index: 700;
+  padding-left: 5%;
+  padding-top: 3.8%;
 }
 
 span.navbar {
   color: #FFFFFF;
+  float: right;
   font-size: 1.2em;
-  position: relative;
-  top: .9em;
-  text-align: center;
   letter-spacing: .1em;
-}
-
-.departure {
-  display: inline;
-  text-align: center;
-  vertical-align: middle;
+  padding-right: 23%;
+  padding-top: 4%;
 }
 
 .map {
@@ -62,8 +52,6 @@ span.navbar {
   display: block;
   height: 14em;
   position: relative;
-  width: 100%;
-  z-index: 100;
 }
 
 .title {
@@ -79,7 +67,7 @@ span.title {
   letter-spacing: .1em;
   position: relative;
   text-transform: uppercase;
-  top: 1em;
+  top: 30%;
 }
 
 .menu {
@@ -90,58 +78,57 @@ span.title {
 }
 
 .bus_line {
-  position: relative;
   float: left;
-  left: 1.7em;
+  padding-left: 5%;
+  padding-top: 2.5%
 }
 
-.dest_title {
-  position: relative;
+.dest_header {
   float: left;
-  left: 3.7em;
+  padding-left: 7%;
+  padding-top: 2.5%;
 }
 
-.departs {
-  position: relative;
+.departs_in {
   float: right;
-  right: 1.6em;
+  padding-right: 5%;
+  padding-top: 2.5%;
 }
 
-.bus_line, .dest_title, .departs {
+.bus_line, .dest_header, .departs_in {
   color: #4A4A4A;
   font-size: .9em;
-  top: .7em;
 }
 
-.bus_info {
+.bus_info, .bus_info_last {
   border-bottom: .5px solid #DCDCDC;
-  display: inline-block;
+  display: block;
   height: 4.5em;
-  position: relative;
   width: 100%;
 }
 
+.bus_info_last {
+  margin-bottom: 13%;
+}
+
 .busnumber {
-  position: relative;
-  right: -1em;
-  top: .9em;
   float: left;
   font-weight: bold;
   font-size: 1.5em;
+  padding: 5%;
   width: 10%;
 }
 
 .destination {
+  float: left;
   font-size: 1.1em;
   height: 1.1em;
-  position: relative;
-  left: 3.8em;
-  top: 1.5em;
-  float: left;
   color: #4A4A4A;
+  padding-left: 15%;
+  padding-top: 5.5%;
 }
 
-h4.destination {
+.destination h4 {
   font-size: .8em;
   position: relative;
   top: .3em;
@@ -149,21 +136,11 @@ h4.destination {
 }
 
 .mins {
-  position: relative;
-  width: 4.5em;
-  top: 1.3em;
-  right: 1em;
-  float: right;
   color: #4A4A4A;
-}
-
-.resumes, .NA {
-  position: relative;
-  width: 4.5em;
-  top: 1.5em;
-  right: 1em;
   float: right;
-  color: #4A4A4A;
+  width: 21%;
+  padding-top: 5%;
+  padding-right: 2%;
 }
 
 .min_bold {
@@ -196,33 +173,29 @@ h4.destination {
 
 .tabbar {
   background-color: #006075;
-  width: 100%;
-  height: 2.2em;
+  height: 4.5em;
   font-size: .8em;
+  position: fixed;
+  bottom: 0;
+  width: 414px;
 }
 
-.trip_planner, .schedules, .buy_tickets {
+.tabbar_text {
   width: 33.3%;
   float: left;
   text-align: center;
   color: #FFFFFF;
   position: relative;
-  top: .8em;
+  top: 3em;
 }
 
 .tabbar_icons {
-  background-color: #006075;
-  width: 100%;
-  height: 1.8em;
-}
-
-.right-turn1, .menu1, .cart1 {
   width: 33.3%;
   float: left;
   text-align: center;
   color: #FFFFFF;
   position: relative;
-  top: .8em;
+  top: -.2em;
 }
 
 .bold {
