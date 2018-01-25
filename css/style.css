@@ -7,6 +7,7 @@ body {
   background-color: #000;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 .container {
@@ -179,7 +180,7 @@ span.title {
   background-color: #006075;
   height: 4.5em;
   font-size: .8em;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 414px;
 }
